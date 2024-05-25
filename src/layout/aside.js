@@ -19,7 +19,7 @@ function FormExample() {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Form className="p-3" noValidate validated={validated} onSubmit={handleSubmit}>
 
       <p class="text-light" >Si deseas saber que videojuegos tenemos disponibles a tu ubicación, 
       <br></br>
@@ -57,13 +57,12 @@ function FormExample() {
           </Form.Control.Feedback>
         </Form.Group>
       </Row>
-      <Form.Group className="mb-3">
+      <Form.Group className="text-light mb-3">
         <Form.Check 
           required
           label="Estoy de acuerdo con los términos y condiciones"
           feedback="Debes estar de acuerdo para continuar."
           feedbackType="invalid"
-          class="text-light"
         />
       </Form.Group>
       <Button type="submit">Enviar</Button>

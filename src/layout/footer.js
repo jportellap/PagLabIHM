@@ -1,8 +1,8 @@
 const Footer = () => {
     return <footer>
 
-        <div class="container text-center">
-            <div class="row align-items-center">
+        <div class="container-footer text-center mt-4 p-3">
+            <div class="row align-items-center text-light">
                 <div class="col">
                     CONTACTO
                     <br></br>
